@@ -340,7 +340,7 @@ nav li {
 }
 
 .highlighted-message {
-  background-color: hotpink;
+  background-color: rgb(255, 61, 158);
 }
 
 
@@ -593,11 +593,11 @@ footer {
     height: 100%;
     padding: 20px 0 10px 0;
   }
-
+/*
   .primary-nav-right {
     padding-top: 10px;
   }
-
+*/
   .secondary-nav {
     justify-content: center;
   }
@@ -605,11 +605,37 @@ footer {
   .secondary-nav ul {
     padding-left: 0;
   }
+  
+  .primary-nav-left {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .primary-nav-left img {
+    display: block;
+    margin: auto;
+    padding-left: 0;
+  }
+
+  .primary-nav-left ul {
+    line-height: 2;
+    text-align: center;
+    margin-left: 0;
+  }
+  
+  .primary-nav-right {
+    padding-top: 0;
+    margin: 20px 0;
+  }
+
+  .primary-nav-right input {
+    margin-left: 10px;
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
-
+/*
   .primary-nav-left {
     display: block;
     padding-top: 10px;
@@ -632,7 +658,7 @@ footer {
   .primary-nav-right input {
     margin-left: 10px;
   }
-  
+  */
   .jumbotron-parallax h1 {
     font-size: 42px;
   }
