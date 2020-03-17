@@ -12,14 +12,25 @@
 </head>
 <body>
   <header>
-    
+  <!-- 
+    # Miller’s Law - The average person can only keep 7 (plus or minus 2) items in their working memory.
+    I've used chunking as an effective method of presenting groups of content in a manageable way. As an example, you will see there are primary and secondary menus. Throughout the site, you will see that there are no more than 5 items in any particular group. 
+  -->
   <!-- Secondary nav -->
   <nav class="secondary-nav-nav">
       <div class="main-container buutti-nav secondary-nav">
+        <!-- 
+          # Hick’s Law - The time it takes to make a decision increases with the number and complexity of choices.
+          I've split the various UI menu elements into various areas of deemed importance. This is such an area. 
+        -->
         <ul>
           <li>News</li>
           <li>Intranet</li>
         </ul>
+        <!-- 
+          # Hick’s Law continued...
+          In this particular element, I've listed the languages in a dropdown with one highlighted as default selection. This declutters, simplifying the number of choices to the end user. 
+        -->
         <select>
           <option value="english">In English</option>
           <option value="suomi">Suomeksi</option>
@@ -33,11 +44,18 @@
       <div class="main-container buutti-nav primary-nav">
         <div class="primary-nav-left">
           <!-- 
-            
+            # Law of Prägnanz - People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us.
+            I've simplified the Buutti logo here because I thought it was too distracting in this context.  
            -->
           <img class="buutti-logo" src="img/buutti-logo.png" alt="Buutti Logo">
+          <!-- 
+            # Fitts’s Law - Touch targets should be large enough for users to both discern what it is and to accurately select them.
+            I've used CSS to maximise the selectable area of the hyperlink. If the user is using a mouse, the colour and background negate to illustrate you can interact with the element.
+
+            # Law of Common Region - Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.
+            I've added a border around these group of elements to create common region. This helps the user identify them as an important unit to warrant their attention. 
+           -->
           <ul>
-            
             <li><a href="#">COMPANY</a></li>
             <li><a href="#">EDUCATION</a></li>
             <li><a href="#">CONTACT US</a></li>
@@ -45,7 +63,8 @@
         </div>
         <div class="primary-nav-right">
           <!-- 
-
+            # Hick’s Law - The time it takes to make a decision increases with the number and complexity of choices.
+            I have removed the submit button in the standard search input to simplify choices for the user. I've also simplified the input field's borders to minimise the cognitive load. 
            -->
           <i class="material-icons buutti-search">
             search
@@ -59,11 +78,7 @@
   <section>
       <div class="jumbotron-parallax">
         <!-- 
-            
-        -->
-        <!-- 
-        <h1>Software fueling digital marketing</h1>
-        <button class="buutti-button jumbotron-button">Learn more</button>
+          This is the "eyecatcher". Not sure if it falls under any of the UX design laws though. 
         -->
       </div>
     </section>
@@ -74,12 +89,22 @@
   <section class="clickable-messages">
     <h1 class="page-header-h2">Clickable messages</h1>
     <div class="image-banner">
+      <!-- 
+        # Fitts’s Law - Touch targets should be large enough for users to both discern what it is and to accurately select them.
+        I've designed these clickable messages to be easily selectable. 
+        # Occam’s Razor - Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected.
+        Originally these were clickable images with supporting text that open an article. I thought the images were too distracting so I made them as cards.
+      -->
       <div class="image-banner-image">
         <a href="#">
           <h2>FIRST MESSAGE</h2>
         </a>
       </div>
       <div class="image-banner-image highlighted-message">
+        <!-- 
+          # Von Restorff Effect - The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.
+          I've highlighted this card as visually distinctive to mark it as information more important than the others.
+        -->
         <a href="#">
           <h2>HIGHLIGHTED MESSAGE</h2>
         </a>
@@ -95,7 +120,10 @@
   <!-- Stats (company numbers) -->
   <section id="company-numbers">
     <div class="company-numbers-container">
-      
+      <!-- 
+        # Zeigarnik Effect - People remember uncompleted or interrupted tasks better than completed tasks.
+        I'm not sure if this would count as a Zeigarnik effect, but as the user watches the uncompleted statistics incrementing, perhaps they would be more likely to pay attention and perhaps even remember them.  
+      -->
       <div class="company-numbers">
         <i class="material-icons">business_center</i>
         <div class="company-numbers-text">
@@ -103,7 +131,6 @@
           <p>Clients</p>
         </div>
       </div>
-    
       <div class="company-numbers">
         <i class="material-icons">face</i>
         <div class="company-numbers-text company-numbers-text-middle">
@@ -111,7 +138,6 @@
           <p>Employees</p>
         </div>
       </div>    
-
       <div class="company-numbers">
         <i class="material-icons">public</i>
         <div class="company-numbers-text">
@@ -123,11 +149,16 @@
     </div>    
   </section>
 
+  <hr class="hr-divider">
+
   <!-- References (List of referenced companies) -->
   <section class="references-section">
     <h2 class="page-header-h2">References</h2>
     <div class="references-row">
-      
+      <!-- 
+        # Law of Common Region - Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.
+        I've added a border around each group of references to create common region. This helps the user identify each reference as a single unit. The divider between the logo and description text helps suggest a difference while maintaining a relationship. 
+      -->
       <div class="references-container">
         <img src="img/references/bosch.png" alt="Bosch logo">
         <hr>
@@ -156,12 +187,13 @@
     </div>
   </section>
   
-  <hr class="hr-divider">
-
-
   <!-- Footer -->
   <footer>
     <div class="main-container footer-container">
+      <!-- 
+        # Serial Position Effect - Users have a propensity to best remember the first and last items in a series.
+        The menu information in the footer has been repeated to prompt the user to navigate to another part of the site, as they haven't clicked anything at this stage. 
+      -->
       <section class="footer-left-side">
         <h3>Buutti Education</h3>
         <div class="contact-details-container">
@@ -182,7 +214,14 @@
             <li>Intranet</li>
           </ul>
         </nav>
+        
         <div class="social-media-icons">
+          <!--            
+            # Law of Uniform Connectedness - Elements that are visually connected are perceived as more related than elements with no connection.
+            I've grouped the social media icons with a similar shape and same color to establish a relationship. The user just needs to see one familiar logo to establish that they are all related.
+            # Law of Proximity - Objects that are near, or proximate to each other, tend to be grouped together.
+            This can grouping also be argued as the law of proximity.
+          -->
           <img src="img/social-icons/facebook.png" alt="Facebook logo">
           <img src="img/social-icons/twitter.png" alt="Twitter logo">
           <img src="img/social-icons/linkedin.png" alt="Linkedin logo">
