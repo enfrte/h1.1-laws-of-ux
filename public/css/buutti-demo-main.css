@@ -4,26 +4,26 @@ body {
 
 :root {
   --buutti-black: #111;
-  --liana-font-color-dark: #222;
-  --liana-font-color-medium-dark: #333;
-  --liana-font-color-light: #444; 
-  --liana-bg-color-light: #eee; 
+  --buutti-font-color-dark: #222;
+  --buutti-font-color-medium-dark: #333;
+  --buutti-font-color-light: #444; 
+  --buutti-bg-color-light: #eee; 
 }
 
 h1, h2, h3, h4, p, li, button, select {
   font-family: 'Roboto', sans-serif; 
-  color: var(--liana-default-font-color);
+  color: var(--buutti-default-font-color);
 }
 
 a {
   text-decoration: none;
-  color: var(--liana-font-color-medium-dark);
+  color: var(--buutti-font-color-medium-dark);
 }
 
 .primary-nav-left ul a:hover {
   text-decoration: none;
   color: white;
-  background-color: var(--liana-font-color-dark);
+  background-color: var(--buutti-font-color-dark);
 }
 
 .main-container {
@@ -33,7 +33,7 @@ a {
 
 /* 2 header navs */
 
-.liana-nav {
+.buutti-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,7 +54,7 @@ a {
   flex-wrap: wrap;
   height: 110px;
   background-color: white;
-  color: var(--liana-font-color-light);
+  color: var(--buutti-font-color-light);
 }
 
 .primary-nav-left {
@@ -74,7 +74,7 @@ a {
 
 .primary-nav-left li {
   font-weight: 500;
-  color: var(--liana-font-color-medium-dark);
+  color: var(--buutti-font-color-medium-dark);
   padding: 0;
 
 }
@@ -126,15 +126,15 @@ nav li {
   border-radius: 5px;
   border-color: white;
   font-size: 16px;
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
 }
 
-.liana-logo {
+.buutti-logo {
   height: 50px;
   padding-left: 10px;
 }
 
-.liana-button {
+.buutti-button {
   border-radius: 5px;
   border: none;
   background-color: var(--buutti-black);
@@ -193,7 +193,7 @@ nav li {
 .image-banner-image {
   height: 225px;
   width: 350px;
-  background-color: var(--liana-font-color-dark);
+  background-color: var(--buutti-font-color-dark);
   background-position: bottom; /* call after background */
   background-repeat: no-repeat;
   text-align: center;
@@ -239,7 +239,7 @@ nav li {
 }
 
 .company-numbers-text {
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
   margin: 10px;
 }
 
@@ -270,15 +270,15 @@ nav li {
 }
 
 .page-header-h2 {
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
   font-weight: 500;
   font-size: 32px;
 }
 
 .latest-news-row {
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
   display: flex;
-  background-color: var(--liana-bg-color-light);
+  background-color: var(--buutti-bg-color-light);
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -288,7 +288,7 @@ nav li {
 }
 
 .latest-news-section {
-  background-color: var(--liana-bg-color-light);
+  background-color: var(--buutti-bg-color-light);
   padding: 15px 10px 40px 10px;
 
 }
@@ -303,7 +303,7 @@ nav li {
 
 .latest-news-preview h3 a {
   text-decoration: none;
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
 }
 
 .latest-news-date {
@@ -367,12 +367,12 @@ nav li {
 }
 
 .references-container p {
-  color: var(--liana-font-color-light);
+  color: var(--buutti-font-color-light);
   padding: 0 15px;
 }
 
 .references-container h3 {
-  color: var(--liana-font-color-dark);
+  color: var(--buutti-font-color-dark);
   font-weight: 500;
   font-size: 24px;
 }
@@ -411,7 +411,7 @@ nav li {
 
 .newsletter-section p {
   line-height: 1.5;
-  color: var(--liana-font-color-medium-dark);
+  color: var(--buutti-font-color-medium-dark);
 }
 
 .newsletter-subscription-container form {
